@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %} Index {% endblock %}
+{% block body %}
+
+<h1> Hello, hello! </h1>
+<form action="/submit_message" method="POST">
+    <input name="msg" type="text" placeholder="Leave a message:">
+</form>
+
+{% endblock %}
